@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page-document {
+    background-color: #f7f8fc;
+}
+.main-wrap {
+    width: 85%;
+    margin: 20px 30px;
+}
+.inform-content {
+    margin-top: 20px;
+}
+.gateway-inform {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    width: 59%;
+}
+.gateway-name {
+    margin-top: 100px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gateway-name img{
+    width: 150px;
+    height: 150px;
+    background-color: #f7f8fc;
+    border: 5px solid #ccc;
+}
+.gateway-name p {
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.gateway-name a {
+    color: black;  
+}
+.gateway-sheet {
+    margin-top: 50px;
+    margin-right: 100px;
+}
+.green-ip {
+    opacity: 0.6;
+    font-size: 20px;
+    font-weight: 600;
+}
+.ip {
+    font-size: 16px;
+}
+.home-image {
+    border-radius: 5px;
+    width: 35%;
+}
+.image-avatar {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 54%;
+}
+.image-avatar img {
+    height: 150px;
+    font-weight: 150px;
+}
+.image-avatar p {
+    margin-top: 10px;
+    color: blue;
+    font-weight: 500;
+}
+.home-project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    height: 40%;
+}
+.home-project p {
+    margin-top: 10px;
+    color: blue;
+    font-weight: 500;
+}
+.icon-home {
+    font-size: 60px;
+    padding: 0 15px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    margin-top: 20px;
+}
+.my-custom-scrollbar {
+    position: relative;
+    height: 200px;
+    overflow: auto;
+    }
+.table-wrapper-scroll-y {
+    display: block;
+}
+.device-list {
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 20px;
+}
+.device-title {
+    font-size: 25px;
+    padding: 10px;
+    padding-bottom: 0;
+    font-weight: 500;
+}
+.opacity-text {
+    opacity: 0.6;
+    font-size: 17px;
+    font-weight: 600;
+
+}
+
+

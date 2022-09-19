@@ -1,0 +1,159 @@
+.main {
+    background-color: #f7f8fc;
+}
+.users {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 20px;
+}
+li {
+    list-style: none;;
+}
+.opacity-text {
+    opacity: 0.7;
+    font-size: 12px;
+}
+thead {
+    opacity: 0.5;
+}
+.avatar-img {
+    width: 40px;
+    height: 40px;
+}
+.main-wrap {
+    width: 85%;
+    padding: 20px;
+}
+.title-table {
+    height: 70px;
+    padding-top: 20px;
+}
+.title-table p {
+    padding-left: 15px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.icon-filter i {
+    padding-left: 30px;
+}
+.icon-filter {
+    padding-right: 30px;
+   
+}
+.row-table ul{
+    margin-top: 12px;
+    padding-left: 20px;
+    font-weight: 500;
+}
+.row-table img {
+    margin-top: 15px;
+}
+p.rows {
+    margin-top: 12px;
+    font-weight: 500;
+}
+.row-time {
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.row-add {
+    padding-top: 12px;
+    margin-right: 10px;
+}
+.row-add:hover {
+    opacity: 0.7;
+}
+.number-change-page {
+    margin-left: 850px;
+    
+}
+.number-page {
+    padding-right: 50px;
+}
+.tfood {
+    font-weight: 500;
+    padding-right: 15px;
+    
+}
+.change-page p {
+    margin-right: 20px;
+}
+.change-page i {
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.change-page i:hover {
+    opacity: 0.7;
+}
+.icons {
+    margin-top: 10px;
+}
+.icons i {
+    padding: 5px;
+
+}
+.icons i:hover {
+    opacity: 0.7;
+}
+.edit-gateway {
+    position: sticky;
+    height: 150px;
+    width: 300px;
+    background-color: #f7f8fc;
+    border-radius: 5px;
+    top: 300px;
+    left: 50%;
+    transform: translateX(-20%);
+    display: none;
+}
+.edit-gateway p {
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.onchange-btn {
+    margin-top: 30px;
+    padding: 0 50px;
+    display: none;
+}
+.edit-turn {
+    display: block;
+}
+.tool-log {
+    position: absolute;
+    margin-top: 30px;
+    right: 30px;
+    background-color: #ccc;
+    width: 170px;
+    height: 100px;
+    border-radius: 5px;
+    display: none;
+  }
+  .tool-log i {
+    font-size: 20px;
+    margin: 5px;
+  }
+  .profile {
+    padding-left: 25px;
+    padding-top: 10px;
+    border-bottom: 2px solid #fff;
+  }
+  .log-out {
+    padding-left: 25px;
+    text-decoration: none;
+    color: #000;
+  }
+  .profile:hover {
+    opacity: 0.5;
+  }
+  .log-out:hover {
+    opacity: 0.5;
+  }
+  .tool-on {
+    display: block;
+  }
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="/Overview/main.html">
+    <title>Smart Farm</title>
+    <script src="./main.js"></script>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="wrap-form">
+            <div class="login-interface border rounded">
+                <div class="img">
+                    <img src="/assets/image/icons/25.png" alt="false">
+                </div>
+                <h5 class="text-center">Log In IoT Portal</h5>
+                <form action="" class="modal-content">
+                    <div class="email-input mb-3 mt-3 p-3 pt-0 pb-0">
+                        <label class="text-uppercase" for="email"><b>Email</b></label><br>
+                        <input class="form-control" id="email" type="email" placeholder="Email address" name="email" required>
+                    </div>
+                    <div class="password-input p-3 pt-0 pb-0">
+                        <label class="text-uppercase" for="psw"><b>Password</b></label><br>
+                        <input class="form-control" id="psw" type="password" placeholder="Password" name="psw" autofocus  required>
+                    </div>
+                    <small id="announce"></small>
+                    <button id="btn" onclick="handleCreateForm()" type="button" class="btn btn-info text-white m-3">Login</button>
+                </form> 
+            </div>
+        </div>
+    </div>
+</body>
+</html>

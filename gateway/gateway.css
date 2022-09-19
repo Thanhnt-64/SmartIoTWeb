@@ -1,0 +1,89 @@
+.main {
+    background-color: #f7f8fc;
+}
+.request {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 30px;
+    background-color: #fff;
+}
+li {
+    list-style: none;;
+}
+.opacity-text {
+    opacity: 0.7;
+    font-size: 12px;
+}
+thead {
+    opacity: 0.5;
+}
+.avatar-img {
+    width: 40px;
+    height: 40px;
+}
+.main-wrap {
+    width: 85%;
+    padding: 20px;
+}
+.title-table {
+    height: 70px;
+    padding-top: 20px;
+}
+.title-table p {
+    padding-left: 35px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.icon-filter i {
+    padding-left: 30px;
+}
+.icon-filter {
+    padding-right: 30px;
+   
+}
+.row-table ul{
+    margin-top: 12px;
+    padding-left: 20px;
+    font-weight: 500;
+}
+.row-table img {
+    margin-top: 15px;
+}
+p.rows {
+    margin-top: 12px;
+    font-weight: 500;
+}
+.row-time {
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.row-add {
+    padding-top: 12px;
+    margin-right: 10px;
+}
+.row-add:hover {
+    opacity: 0.7;
+}
+.number-change-page {
+    margin-left: 850px;
+    
+}
+.number-page {
+    padding-right: 50px;
+}
+.tfood {
+    font-weight: 500;
+    padding-right: 15px;
+    
+}
+.change-page p {
+    margin-right: 20px;
+}
+.change-page i {
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.change-page i:hover {
+    opacity: 0.7;
+}

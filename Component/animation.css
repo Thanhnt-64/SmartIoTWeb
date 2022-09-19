@@ -1,0 +1,30 @@
+.scroll-page {
+  transform: translateX(-97%);
+  transition: transform linear 0.3s;
+}
+.main-wrap {
+  transform: translateX(-8%);
+  transition: transform linear 0.3s;
+}
+.nav-btn {
+  position: fixed;
+  font-size: 25px;
+  color: rgb(136, 127, 127);
+  padding-top: 10px;
+  padding-left: 10px;
+  z-index: 2;
+}
+.nav-input:checked ~ .scroll-page {
+  transform: translateX(0%);
+}
+.nav-input:checked ~ .main-wrap {
+  transform: translateX(0%);
+}
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
