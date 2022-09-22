@@ -156,22 +156,16 @@ img:hover {
 </style>
 
 <div class="inform-tab d-flex justify-content-between">
-  <p class="inform-text" style="height: 30px;">Overview</p>
+  <p class="inform-text" style="height: 30px;">Smart Farm</p>
   <form action="" class="d-flex">
     <input class="form-control" type="text" placeholder="search">
     <i class="ti-search icon"></i>
     <i class="ti-bell icon"></i>
   </form>               
   <p class="inform-name" style="font-size: 15px;">Nguyen Tien Thanh
-  <img class="rounded-pill" src="/assets/image/conan.png" alt="">
+  <img class="rounded-pill tool-log" src="/assets/image/conan.png" alt="">
   </p>
 </div>
-<script>
-function turnOn() {
-  const edit = document.querySelector('.tool-log');
-  edit.classList.add(".tool-on");
-}
-</script>
 `;
 
 class Inform extends HTMLElement {

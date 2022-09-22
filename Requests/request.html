@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Request</title>
     <link rel="stylesheet" href="/Component/animation.css">
     <link rel="stylesheet" href="./request.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -21,6 +21,17 @@
     
     <nav-component class="scroll-page"></nav-component>
     <div class="main-wrap">
+      <div class="tool-log">
+        <div class="profile d-flex" onclick="hiddenTool()">
+          <i class="fa-regular fa-circle-user"></i>
+          <p>Profile</p>
+        </div>
+          <a class="log-out d-flex" href="http://127.0.0.1:5500/Login/index.html">
+            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+            <p>Log out</p>
+          </a>
+      </div>
+      <div class="opacity" onclick="turnOn()"></div>
       <inform-tab></inform-tab>
       <div class="request">
         
@@ -296,4 +307,5 @@
     </div>
   </div>
 </body>
+<script src="./request.js"></script>
 </html>

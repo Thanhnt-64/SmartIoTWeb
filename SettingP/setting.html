@@ -21,6 +21,17 @@
     
             <nav-component class="scroll-page"></nav-component>
             <div class="main-wrap">
+                <div class="tool-log">
+                    <div class="profile d-flex" onclick="hiddenTool()">
+                      <i class="fa-regular fa-circle-user"></i>
+                      <p>Profile</p>
+                    </div>
+                      <a class="log-out d-flex" href="http://127.0.0.1:5500/Login/index.html">
+                        <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                        <p>Log out</p>
+                      </a>
+                  </div>
+                  <div class="opacity" onclick="turnOn()"></div>
                 <inform-tab></inform-tab>
                 <div class="inform-content d-flex justify-content-between">
                     <div class="gateway-inform d-flex justify-content-between">
@@ -123,4 +134,5 @@
         </div>
         
     </body>
+    <script src="./setting.js"></script>
 </html>

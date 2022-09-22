@@ -22,7 +22,17 @@
     
     <nav-component class="scroll-page"></nav-component>
     <div class="main-wrap">
-      
+      <div class="tool-log">
+        <div class="profile d-flex" onclick="hiddenTool()">
+          <i class="fa-regular fa-circle-user"></i>
+          <p>Profile</p>
+        </div>
+          <a class="log-out d-flex" href="http://127.0.0.1:5500/Login/index.html">
+            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+            <p>Log out</p>
+          </a>
+      </div>
+      <div class="opacity" onclick="turnOn()"></div>
       <inform-tab></inform-tab>
       <div class="data-part">
         <div class="data-part-value">
@@ -137,37 +147,37 @@
                   <td>
                     <div class="form-check">
                       <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>
-                      <label class="form-check-label" for="radio1">Option 1</label>
+                      <label class="form-check-label" for="radio1">Chương trình phía Gateway treo</label>
                     </div>
                   </td>
-                  <td>Urgent</td>
+                  <td><button class="btn btn-danger rounded-circle">Urgent</button></td>
                 </tr>
 
                 <tr>
                   <td>
                     <div class="form-check">
                       <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>
-                      <label class="form-check-label" for="radio1">Option 1</label>
+                      <label class="form-check-label" for="radio1">Không đăng nhập được tài khoản cá nhân</label>
                     </div>
                   </td>
-                  <td>Urgent</td>
+                  <td><button class="btn btn-success btn-sm rounded-circle">New</button></td>
                 </tr>
 
                 <tr>
                   <td>
                     <div class="form-check">
                       <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>
-                      <label class="form-check-label" for="radio1">Option 1</label>
+                      <label class="form-check-label" for="radio1">Cập nhật firmware mới Uncle Sỹ</label>
                     </div>
                   </td>
-                  <td>Urgent</td>
+                  <td><button class="btn btn-secondary rounded-circle">Default</button></td>
                 </tr>
                 
               </table>
             </form>
           </div>
         </div>
-        <!-- Row 2 -->
+        <!-- Column 2 -->
         <div class="footer-part footer-gateways d-flex flex-column">
           <div class="gateway-board d-flex justify-content-between">
             <div class="status-text">
@@ -178,27 +188,28 @@
           </div>
           <br>
           <div class="gateway-table-status">
-            <table class="table container">
-              <tr class="d-flex">
-                <td>Online</td>
+            <table class="table">
+              <tr class="">
+                <td colspan="2">Online</td>
                 <td>39</td>
               </tr>
-              <tr class="d-flex">
-                <td>Online</td>
+              <tr class="">
+                <td colspan="2">Offline</td>
                 <td>39</td>
               </tr>
-              <tr class="d-flex">
-                <td>Online</td>
+              <tr class="">
+                <td colspan="2">Error</td>
                 <td>39</td>
               </tr>
-              <tr class="d-flex">
-                <td>Online</td>
+              <tr class="">
+                <td colspan="2">Online</td>
                 <td>39</td>
               </tr>
             </table>
           </div>
         </div>
       </div>
+      <div class="add">.</div>
       </div>
     </div>
   </div>

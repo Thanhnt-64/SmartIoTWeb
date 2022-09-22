@@ -28,7 +28,7 @@ function createAccount(myData) {
         const announce = document.getElementById('announce');
         if (data.message === "Login successfully"){
             announce.style.display = "none";
-            redirectPage()//chưa viết
+            redirectPage();
         }
         else {
             announce.style.display = "block";
@@ -36,9 +36,7 @@ function createAccount(myData) {
         }
     })
 }
-
-function redirectPage() {
-    
+function redirectPage() {   
     window.location = "http://127.0.0.1:5500/Overview/overview.html";
 }
 

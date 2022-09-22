@@ -20,15 +20,31 @@
     <label for="nav-btn-input" class="navbar-cover"></label>
     <nav-component class="scroll-page"></nav-component>
     <div class="main-wrap">
+      <div class="tool-log">
+        <div class="profile d-flex" onclick="hiddenTool()">
+          <i class="fa-regular fa-circle-user"></i>
+          <p>Profile</p>
+        </div>
+          <a class="log-out d-flex" href="http://127.0.0.1:5500/Login/index.html">
+            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+            <p>Log out</p>
+          </a>
+      </div>
+      <div class="opacity" onclick="turnOn()"></div>
       <inform-tab></inform-tab>
       <div class="request">
-        
+        <div class="displaySearch">
+          <label for="searchId"><b>SearchId</b></label>                 
+          <input type="text" id="searchId" class="mac" placeholder="mac">
+          <input type="text" id="searchId" class="name" placeholder="name">                  
+          <br><button type="button" onclick="postData()">Search</button>
+          <br><p class="annouce"></p>
+        </div>
         <div class="title-table d-flex justify-content-between">
           <p>Gateway in Projects</p>
-          <div class="icon-filter">
-            
-            <i class="fa-solid fa-arrow-up-short-wide"></i>Sort
-            <i class="fa-sharp fa-solid fa-filter"></i>Filter
+          <div class="icon-filter">  
+            <i class="fa-solid fa-arrow-up-short-wide"  onclick="hiddenSearchBar()"></i>Sort
+            <i class="fa-sharp fa-solid fa-filter filter" onclick="displaySearchBar()"></i>Filter
           </div>
         </div>
         <table class="table">
@@ -279,4 +295,5 @@
     </div>
   </div>
 </body>
+<script src="./getway.js"></script>
 </html>

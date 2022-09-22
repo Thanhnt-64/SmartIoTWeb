@@ -90,3 +90,50 @@ p.rows {
 .change-page i:hover {
     opacity: 0.7;
 }
+/* ------------------- */
+.edit-turn {
+    display: block;
+}
+.tool-log {
+    position: absolute;
+    margin-top: 30px;
+    right: 30px;
+    background-color: #ccc;
+    width: 170px;
+    height: 100px;
+    border-radius: 5px;
+    display: none;
+  }
+  .tool-log i {
+    font-size: 20px;
+    margin: 5px;
+  }
+  .profile {
+    padding-left: 25px;
+    padding-top: 10px;
+    border-bottom: 2px solid #fff;
+  }
+  .log-out {
+    padding-left: 25px;
+    text-decoration: none;
+    color: #000;
+  }
+  .profile:hover {
+    opacity: 0.5;
+  }
+  .log-out:hover {
+    opacity: 0.5;
+  }
+  .opacity {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    z-index: 10;
+    top: 30px;
+    right: 20px;
+    border-radius: 50%;
+  }
+  .opacity:hover {
+    opacity: 0.7;
+  }
